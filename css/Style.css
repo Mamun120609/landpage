@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: block;
+}
+
+#heder{
+    background-image: url(back-1.png);
+    background-position: center
+    background-size: cover;
+    width: 100%;
+    height: 674px;
+    float: left;
+    background-repeat: no-repeat;
+    
+
+}
+
+/*===================================
+Logo part
+=====================================
+*/
+
+.logo-part{
+      width: 40%;
+      padding-top: 35px;
+      padding-left: 40px;
+      float: left;
+      
+
+}
+
+.logo-part img{
+            width: 32px;
+            height: 30px;
+           
+            float: left;
+            
+}
+
+/*===================================
+Main menu
+=====================================
+*/
+.menu-part{
+        width: 60%;
+        float: left;
+        
+
+}
+
+.main_menu{
+          margin: 10px;
+
+}
+
+.main_menu ul{
+         float: left;
+         margin-left: 20px;
+         padding: 43px; 
+         list-style: none;
+
+}
+
+.main_menu ul li{
+                  display: inline-block; 
+                  margin: 0 5px;
+                  
+                  
+}
+
+.main_menu ul li a{
+              color: #000; 
+              font-size: 14px; 
+              font-weight: 600; 
+              text-transform: uppercase;
+              display: block;
+              text-decoration: none;
+              
+
+}
+
+.main_menu ul li a:hover{
+                      background-color: #10c9c1;
+}
+
+
+.container{
+  margin-top: 400px;
+  margin-left: 800px;
+  
+}
+
+.container p{
+  
+  
+}
+
+
+.button{
+  margin-left: 900px;
+  margin-right: 0px;
+  padding-top: 10px;
+ 
+  
+  
+}
+
+.button a{
+            font-size: 20px;
+            text-decoration: none;
+            background-color: aqua;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+}
